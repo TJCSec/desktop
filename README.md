@@ -5,7 +5,6 @@ Instructions to use Codespaces can be found [here](https://docs.google.com/docum
 The password for the `vscode` (default) user is `vscode`.
 
 This repository contains a codespace pre-configured for CTF purposes. It has various tools installed, including:
-* Firefox (`firefox`)
 * GDB + GEF (`gdb`)
 * Ghidra (`ghidra`)
 * pwntools (`pwn`)
