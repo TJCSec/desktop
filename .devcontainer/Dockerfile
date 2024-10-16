@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/devcontainers/base:bullseye
 RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     && apt install -y git build-essential gdb python3-pip openjdk-11-jdk ruby-dev npm wget unzip file netcat
 
-RUN DEBIAN_FRONTEND=noninteractive apt install -y wireshark audacity firefox-esr
+RUN DEBIAN_FRONTEND=noninteractive apt install -y wireshark audacity
 
 RUN pip3 install --upgrade pip && pip3 install pwntools ROPgadget Pycryptodome
 
